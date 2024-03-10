@@ -8,7 +8,7 @@ The repository consists of two branches: `main` and `robustness`.
 ## Main Branch
 The `main` branch contains the implementation of the Discrete SAC. The primary goal of this branch is to provide a functional implementation of the SAC algorithm.
 
-Here are the results shown in the midterm-paper
+Here are the results shown in the midterm report.
 
 ![SAC reward](https://github.com/yyanghly/SAC-Discrete/assets/99605351/49575458-e8c4-43d6-912e-a5a31be2c384)
 
