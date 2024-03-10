@@ -6,12 +6,11 @@ This GitHub repository contains the work for the COMP3340 course's group project
 The repository consists of two branches: `main` and `robustness`.
 
 ## Main Branch
-The `main` branch contains the implementation of the Discrete SAC. It includes an jupyter notebook run and evaluate the classifier. The primary goal of this branch is to provide a functional implementation of the SAC algorithm.
+The `main` branch contains the implementation of the Discrete SAC. The primary goal of this branch is to provide a functional implementation of the SAC algorithm.
 
 Repository Structure:
 - `src/`: This directory contains the source code for the Discrete SAC implementation.
-- `data/`: This directory stores the dataset used for training and evaluation.
-- `results/`: This directory is used to store the results obtained from running the classifier.
+- `results/`: This directory is used to store the results of LunarLander-v2.
 
 
 ## Robustness Branch
