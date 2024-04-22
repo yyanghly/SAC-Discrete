@@ -70,14 +70,14 @@ python SAC.py -n=10000 -ef=0.1 -sn="SAC_engine_failure_0.1"
 
 #### Introducing Uncertainty (used in final presentation)
 
-##### Introduce Noisy Observation:
+##### Introduce Noisy Observation
 
 <p float="left">
   <img src="image/README/1713763472967.png" width="48%" />
   <img src="image/README/1713763496522.png" width="48%" /> 
 </p>
 
-##### Introduce Random Engine Failure:
+##### Introduce Random Engine Failure
 
 <p float="left">
   <img src="image/README/1713763524630.png" width="48%" />
