@@ -407,18 +407,18 @@ def train(config):
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Soft Actor Critic")
-    parser.add_argument("--episodes", type=int, default=10000, help="Total number of episodes to train for")
-    parser.add_argument("--noise", type=float, default=None, help="Noise for exploration")
+    parser.add_argument("-e", "--episodes", type=int, default=1000, help="Total number of episodes to train for")
+    parser.add_argument("-n", "--noise", type=float, default=None, help="Noisy observation of the environment, mean 0, std as specified")
     parser.add_argument("-ef", "--engine_failure", type=float, default=None, help="Probability of engine failure")
     # parser.addargument("-rf", "--random_force", type=float, default=0.0, help="Random force applied to the lander")
     
-    parser.add_argument("--buffer_size", type=int, default=100000, help="Size of the replay buffer")
-    parser.add_argument("--seed", type=int, default=1, help="Seed for reproducibility")
-    parser.add_argument("--save_every", type=int, default=100, help="How often to save the model")
+    parser.add_argument("-bs", "--buffer_size", type=int, default=100000, help="Size of the replay buffer")
+    parser.add_argument("-s", "--seed", type=int, default=1, help="Random seed")
+    parser.add_argument("-se", "--save_every", type=int, default=100, help="How often to save the model")
     
     # The name of this run
-    parser.add_argument("--save_name", type=str, default="SAC", help="Name of the saved model")
-    parser.add_argument("--batch_size", type=int, default=256, help="Batch size for training")
+    parser.add_argument("-sn", "--save_name", type=str, default="SAC", help="Name of the saved model")
+    parser.add_argument("-bsz", "--batch_size", type=int, default=256, help="Batch size for training")
     args = parser.parse_args()
     
     config = Config(
