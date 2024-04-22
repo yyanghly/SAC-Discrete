@@ -38,28 +38,25 @@ Description:
 
 ### Results
 
-##### Midterm report results (original model)
-
-![SAC reward](https://github.com/yyanghly/SAC-Discrete/assets/99605351/49575458-e8c4-43d6-912e-a5a31be2c384)
-
-![SAC_policy_loss](https://github.com/yyanghly/SAC-Discrete/assets/99605351/7ce61f87-c043-4b4b-8ef5-ffcba65449f3)
-
-![SAC_bellmann_error](https://github.com/yyanghly/SAC-Discrete/assets/99605351/e4ea364c-a8b3-420f-901c-1bdd9b677aa7)
+#### Original model
+<p float="left">
+  <img src="image/README/1713763961657.png" width="48%" />
+  <img src="image/README/1713763978888.png" width="48%" /> 
+</p>
 
 #### Introducing Uncertainty
 
-##### Original model
-
-![1713763961657](image/README/1713763961657.png)![1713763978888](image/README/1713763978888.png)
-
 ##### Introduce Noisy Observation:
 
-![1713763472967](image/README/1713763472967.png)
+<p float="left">
+  <img src="image/README/1713763472967.png" width="48%" />
+  <img src="image/README/1713763496522.png" width="48%" /> 
+</p>
 
-![1713763496522](image/README/1713763496522.png)
 
-##### Introduce Random Engine Failure
+##### Introduce Random Engine Failure:
 
-![1713763524630](image/README/1713763524630.png)
-
-![1713763740519](image/README/1713763740519.png)
+<p float="left">
+  <img src="image/README/1713763524630.png" width="48%" />
+  <img src="image/README/1713763740519.png" width="48%" /> 
+</p>
